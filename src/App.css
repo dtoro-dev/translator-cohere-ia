@@ -1,0 +1,20 @@
+#root {
+  margin: 0 auto;
+  --gizmo-gray-500: #5c5e64;
+  --gizmo-gray-600: #374151;
+}
+
+.bg-gizmo-gray-600 {
+  background-color: var(--gizmo-gray-600);
+  color: inherit;
+}
+
+.container-custom {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 100vw;
+  min-height: 100vh;
+}
+
