@@ -1,4 +1,4 @@
-import { type FromLanguage, type Language } from './languaje'
+import { type FromLanguage, type Language } from './language'
 
 export type Action =
   | { type: 'SET_FROM_LANGUAGE', payload: FromLanguage }
