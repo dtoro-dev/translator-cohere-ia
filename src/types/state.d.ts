@@ -1,4 +1,4 @@
-import { type FromLanguage, type Language } from './languaje'
+import { type FromLanguage, type Language } from './language'
 
 export interface State {
   fromLanguage: FromLanguage

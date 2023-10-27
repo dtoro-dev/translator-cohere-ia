@@ -1,6 +1,6 @@
 import axios from 'axios'
 import { AUTO_LANGUAGE, SUPPORTED_LANGUAGES } from '../types/constants'
-import { type FromLanguage, type Language } from '../types/languaje.d'
+import { type FromLanguage, type Language } from '../types/language'
 
 const apiKey = import.meta.env.VITE_OPENAIA_API_KEY
 
