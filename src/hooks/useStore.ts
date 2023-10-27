@@ -1,7 +1,7 @@
 import { useReducer } from 'react'
+import reducer from '../reducers'
 import initialState from '../reducers/initialState'
-import reducer from '../reducers/intex'
-import { type FromLanguage, type Language } from '../types/languaje'
+import { type FromLanguage, type Language } from '../types/language'
 
 const useStore = (): any => {
   // 3. usar el hook useReducer

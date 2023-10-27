@@ -1,7 +1,7 @@
 import { type ChangeEvent, type FC } from 'react'
 import { Form } from 'react-bootstrap'
 import { AUTO_LANGUAGE, SUPPORTED_LANGUAGES } from '../types/constants'
-import { type FromLanguage, type Language } from '../types/languaje'
+import { type FromLanguage, type Language } from '../types/language'
 import { SectionType } from '../types/sectionType.d'
 
 type Props =
